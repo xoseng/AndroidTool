@@ -1,0 +1,9 @@
+python -m pip install cx_Freeze --upgrade
+cd C:\Users\%USERNAME%\Desktop\AndroidTool
+python setup.py build
+
+############
+
+pip install pyinstaller
+cd C:\Users\%USERNAME%\Desktop\AndroidTool
+pyinstaller main_gui.py
